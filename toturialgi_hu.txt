@@ -1,0 +1,44 @@
+1:git init( dc dung o trong 1 thu muc chua cac file ma ta lam viec):De ta ra cai git giup qua ly thu muc do.
+2:git status: cho biet trong thai cua cai git do gom (working directory,staging area, repository)
+3:git add . :la dau tat ca file trong folder vao staging area
+git add <name_of_file>:la dau file co ten dc nhac toi len staging area
+4:git commit -m "<string>":de dua du lieu tu staging len repository
+git commit -a :de commit luon file tu working directory len repository//mk van chua hieu cai nay .
+git commit -amend -a :la thay the cai phiem ban ngay trc do bang phien ban moi (no dien ra tren repesitory)
+5:Tao repository tren github 
+6:Chay lenh da dc cung cap tren github
+
+7:git push -u origin <branch> :de day len remote
+git push --force la de tai de repository o local len reposiory o origin
+
+8:git log --oneline: hien thi thong tin lich su cua nhanh duoc chon.
+
+9:git branch:show nhung cai branch hien tai.
+git branch <name_of_new_branch>:tao branch moi.
+git branc -d <name_of_brach>:de xoa branch.
+git branch <name_of_new_branch> <ma_commit>:de tao branch moi tu commit co ma dc nhap vao.
+git reset <brach_id>:no se chuyen cai brach ve mot nhanh nao do.
+
+10:git checkout <name_of_branch>:chuyen sang branch moi.
+git checkout -b <name_of_branch>:Tao ra branch moi o branch hien tai 
+
+11:git merge <branch cau vao>:no se keo phan khach biet cua branch dau vao vao brach dang dc chon.
+git merge <branch dau voa > --no-ff: merge nhung voi kieu no fast forward . Thuc la no se tao ra mot commit moi de chua tat ca cac commit cua branch dau vao.
+(+)fast forward la no se merge bang cach dung chung cai commit cua branch dau vao.
+
+12:git rebase <branch_dau_vao>:lay cai branch dau vao lam base de phat (tuc la du nguyen phan branch dau vao va them cai rieng cua branch dang chon)
+git rebase master --preserve-merges:
+
+squash:
+git rebase <branch> -i
+
+cho squash nhung toan bo chi de lai 1 cai pick.
+
+
+13:git pull:de lay code tu remote repo ve 
+
+14:git clone <link>:de copy code ve.
+
+
+
+

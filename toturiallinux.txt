@@ -1,0 +1,68 @@
+                File huong dan dung lenh tren ubuntu
+1:Lện ra vào và mở file . 
+-pwd :print work diractory. 
+-ls :list diractory. 
+-cd <name_of_diractory>: vào thư mục nào đó.
+-cd - trở về thư mục trước. 
+-cd .. thoát về thư mục cha.
+-cat <name_of_file>: để xem toàn bộ nội dung của file.
+-less <name_of_file>:để hiển thi nd vừa đủ phần mà hình.
+- mkdir -p <name_of_diractory> để tạo thưu mục. 
+-toutch <name_of_file> để tạo file. 
+
+2:lệnh quẩn lí danh sách package đã cài đặt 
+-sudo dpkg -l: để hiển thị danh sách các package đá cài đặt. 
+-dpkg -l | grep <name_of_package>:để tiềm kiếm package có tên chứa tên đc nhập. 
+-<name_of_app> :để mở app. 
+-<name_of_app> tên file  :để mởi file với app đó . 
+
+3:Lện liên quan đến cài đặt và xóa app , store apt . 
+-sudo apt autoupdate : đê update apt snap. 
+-sudo apt search <name_of_package>: tim  package đó có trên store không. 
+-sudo  apt install <name_of_packate>: cài đặt package.
+-sudo apt clean : là xóa các phai đi cùng khi tải xuống app. 
+-sudo apt remove <name_of_package>:là gỡ cài đặt package. 
+-sudo apt autoromve :là tự động xóa các file đi kèm khi một app nào đó bị xóa. 
+-sudo apt autoupgrade: là để upgrade cho các app. 
+
+4:Lệnh khác.
+-rm (-r) <name_of_file>:để xóa file hoặc thư mục(path ) thì thêm -r
+-cp <path> <path>: đề copy file ở đường dẫn 1 đến file ở đường dẫn 2.
+-mv  <path1> <path2>:để di chuyển hoặc đổi tên 1 file hoặc 1 diractory. 
+-history:de hien lich su lenh.
+-!!:la chay lenh ngay truoc do.
+-!-<number>:chay lenh o vi tri <number>(danh so bat dau tu 1 tu duoi len).
+-!$:ls gan cai path(hay hieu la cai tham so da vo phia truoc vao) thay the cai !$.
+-!<chu cai dau (phan dau cua mot cau lenh nao do):no se chay cau lenh gan nhat co phan dau giong voi phan dc nhap.
+-bash <file.sh>:da chay cach lenh dc nam trong file.
+-man <cau lenh>:ta se biet dc cac su lua chon them cua cua cau lenh.
+-ctrl+C:No se bo qua dong lenh o tren ma nhay xuong dong duoi.
+-ln -s <path> <shortcut>:Tao mot shortcut cho path.
+-unlink <shortcut>:xoa cai shortcut do.
+-cat /etc/passwd: de hien thi user.
+-cat /etc/group:de hien thi group.
+-groups: để kiểm tra group mà mk thuộc.
+------------------------------------------------------
+(*)drwxr-xr-x  7 phuong phuong 4096 Aug 30 10:47 Desktop
+
+-d(l|-):thể hiện nó là loại nào folder hay file hay là link sypol.
+(+):Đây là các đối tượng dc đề cập.(- là thể hiện đối tượng đó không có đủ 4 quyền )
+rwxr: Cho thấy quyền của user (u).
+-xr: cho thấy quyền của group(g).
+-x: cho thấy quyền của orther user(o).
+
+(+):chú thích.(Đây là các quyền).
+r:là quyền đọc.
+w:là quyền viết.
+x:là quyền thược thi.
+(+)thêm bới quyền.
+Cách 1:
+-chmod <đối tượng>+<quyền> <fiel/folder>.
+-chmod a-<quyền nào đố> <file/folder>.
+Cach 2:
+-chmod <số có 3 chữ số thể hiện chế độ của 3 đối tượng>
+
+---------------------------------------------------------------
+6:
+dconf reset -f/
+

@@ -1,0 +1,44 @@
+
+========== Mod giao diện Ubuntu (GNOME) like MacOS ============
+
+1. Cài dặt DE ( GNOME ) // Ae nào đang dùng DE Unity thì mới cần install, còn dùng GNOME sẵn 				rồi thì bỏ qua bước này
+sudo apt-get install gnome-shell
+
+2. Cài đặt GNOME Tweak Tool
+
+sudo apt-get update
+sudo apt-get install gnome-tweak-tool
+
+3. Tải về và cài đặt MacOS theme
+
+MacOS Mojave: https://www.gnome-look.org/p/1275087/
+
+MacOS Sierra: https://github.com/B00merang-Project/macOS/releases
+
+--> Tải về và sau đó ae bỏ nó vào folder /home/.themes
+
+4. Tải về và cài dặt Mac Icon Set (La Capitaine)
+
+Link: https://github.com/keeferrourke/la-capitaine-icon-theme/releases
+
+--> Tương tự như cài đặt Theme, ae bỏ nó vào folder /home/.icons
+
+5. Thay đổi System Font
+(*):Lenh doi thanh dock truc tiep
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+
+GNOME Tweak Tool > Fonts > set Windows Titles & Interface -> Garuda Regular
+
+6. Add a Desktop Dock ( Thanh icon dock dưới màn hình )
+
+Link và hướng dẫn: https://extensions.gnome.org/extension/307/dash-to-dock/
+
+Hoặc cài đặt Plank Dock nếu muốn giống Mac hơn :v
+
+7. Bonus Mac Spotlight
+
+sudo add-apt-repository ppa:noobslab/macbuntu
+sudo apt-get update
+sudo apt-get install albert
+(*)Neu muon tro ve trang thai ban dau hay chay lenh sau:
+dconf reset -f/

@@ -1,0 +1,46 @@
+                    File su dung vim
+(*)các chế độ :
+-normal:Đây là chế độ để dùng câu lênh. 
+-insert: Dùng để gõ văng bản. 
+-visual: Đây là chế độ để chọn vùng văng bản.
+
+                --------------------------------------
+
+(*):Thay đổi chế độ (chu y la muon chuyen che do gi thi phai dua ve normal)
+-Nhấn Esc : để chuyển về normal. 
+-Esc sau đó  i:để chuyển sang chế độ viết.
+-Esc sau đó v: để chuyển sang chê đọ lựa chọn tưng từ. 
+-Esc sau đó V:để chuyển sang chế độ lựa chọng từng dòng.
+            ----------------------------------------------
+(*) Di chuyển:- h la di chuyển sang trái.
+-j là đi xuống. 
+-k là đi lên.
+-l là sang phai. 
+-$ là di chuyển con trỏ xuống cuối dòng. 
+-0 là di chuyern con trỏ xuống đầu dòng.
+-gg là di chuyển con trỏ về đầu văng bản.
+(-chu y cuon la con tro vân dư nguyên vị trí )
+-G là di chuyển con trỏ về cuối. 
+-Ctrl-y là cuộn lên một dòng 
+-Ctrl-e là cuộn xuống một dòng.
+-Ctrl-u là cuộn lên văn bản nửa màn hình.
+-Ctrl-d là cuộn xuống nửa màn hình.
+
+                -------------------------------------
+(*)Thao tác với văn bản(-chú ý là phải đưa về chế độ normal ) :
+-x là xóa ksi thự tại con trỏ. 
+-y là copy phần được chọn.(phai dc gõ ngay sau khi chọn xong ) 
+-p là paste phần đẫ đc chọn 
+-Các câu lệnh xóa: 
++d la xua phan dc chon. 
++d$ là xóa đến cuối dòng .(dùng khi ta đứng ở đầu dòng )
++dd là xóa dòng hiện tại của con trỏ. 
++d3b xoa hai tu đằng trước con trở  .
++d2w là xóa hai từ đằng sau con trỏ . 
+-u là Undo . (la khoi phục lại bước trước ).
+-Crl-r: Redo.
+            ------------------------------------------
+(*) Một số lện khác 
+-:w là lư 
+-:wq là lư và thoát
+-:q! là thoát mà không lư.
