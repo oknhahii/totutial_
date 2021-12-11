@@ -1,0 +1,9 @@
+-shutdown <chế độ>
++)r là restart
++)s là shutdow
++)a là abort tức là thôi không làm nữa
++)f là focus to close program
++)t <Thời gian(S)> thời gian chạy lệnh.
++)c comment hay chính là phần thông báo
+-rundll32.exe powrprof.dll, SetSuspendState Sleep lệnh để sleep window
+ 

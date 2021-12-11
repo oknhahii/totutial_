@@ -40,5 +40,12 @@ cho squash nhung toan bo chi de lai 1 cai pick.
 14:git clone <link>:de copy code ve.
 
 
+-------------------------------------------
+ĐƯA WEVSITE LÊN GIT
+B1: Tạo repo bình thường.
+B2:Vào setting chọn template repo
+B3: Tời phần Page chọn master rồi chọn root sau đó save.
+
+
 
 
